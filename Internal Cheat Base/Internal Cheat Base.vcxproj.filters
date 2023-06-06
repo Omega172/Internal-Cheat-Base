@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Utils\Console\Console.cpp">
+      <Filter>Utils\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Kiero\kiero.cpp">
+      <Filter>Libraries\Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_demo.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_draw.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_tables.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_widgets.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_impl_dx11.cpp">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_impl_win32.cpp">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\ImGUI\imgui_impl_dx9.cpp">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{e062f1d5-5d79-4eb6-a124-0d5ed4b9ee36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a0d1e8b7-da16-45ed-ab64-d3c0e31cc255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{023df4de-a4ea-49d2-a6a5-9e4358a7c204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{d3c3667e-75ae-44a6-93c8-1d4e302b3d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{4af49895-74f8-4586-bd32-de420b226d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Console">
+      <UniqueIdentifier>{5675a719-48bf-4b7f-9d92-7d6e4e2c2a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Logging">
+      <UniqueIdentifier>{deba21ba-7975-4658-9aa7-b696072c73a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Kiero">
+      <UniqueIdentifier>{7798da52-3b83-4338-9723-29b746e93a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Kiero\MinHook">
+      <UniqueIdentifier>{a496c948-b3d5-41c3-9cfe-a62b10c257dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\D3D11">
+      <UniqueIdentifier>{43228f84-d5ae-4ee6-bade-5b7c91b2cfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI">
+      <UniqueIdentifier>{5520fee9-f99c-4796-a96d-1986220a18a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI\Backends">
+      <UniqueIdentifier>{cab7a9de-d4cd-46e2-b7c2-8b429fa8a34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI\Style">
+      <UniqueIdentifier>{5e230041-cf3b-4e9f-a749-80067f8cecbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\D3D9">
+      <UniqueIdentifier>{93f6870a-c183-4407-a955-43f7a572cdee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals\Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Console\Console.hpp">
+      <Filter>Utils\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logging\Color.hpp">
+      <Filter>Utils\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logging\Logging.hpp">
+      <Filter>Utils\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Kiero\kiero.h">
+      <Filter>Libraries\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Kiero\minhook\include\MinHook.h">
+      <Filter>Libraries\Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\D3D11\D3D11Hooks.h">
+      <Filter>Hooks\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imconfig.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imgui.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imgui_internal.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imstb_rectpack.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imstb_textedit.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imstb_truetype.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imgui_impl_dx11.h">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imgui_impl_win32.h">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\Styles.h">
+      <Filter>Libraries\ImGUI\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGUI\imgui_impl_dx9.h">
+      <Filter>Libraries\ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Custom.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Watermark.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\D3D9\D3D9Hooks.h">
+      <Filter>Hooks\D3D9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
